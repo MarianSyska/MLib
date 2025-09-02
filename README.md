@@ -41,6 +41,8 @@ Arguments:
 
 -e: Sets the number of epochs. Use a low number for MNIST. Default: 100000.
 
+-ep: Specifies the interval at which epoch numbers are printed during training. Default: 100.
+
 -a: Defines the layer structure. It's a list of integers representing the number of neurons in the hidden layers. For example, 20 20 20 creates a network with three hidden layers, each with 20 neurons. The number of neurons in the input and output layers is determined by the dataset. Default: 128 258 128.
 
 -lr: Sets the learning rate. Default: 1e-3.
