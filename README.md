@@ -36,6 +36,7 @@ python train.py
 ```
 
 Arguments:
+
 -d: Specifies the dataset. Options are 'sin' (for the sin-function) or 'mnist' (for the MNIST-dataset). Default: 'sin'.
 
 -e: Sets the number of epochs. Use a low number for MNIST. Default: 100000.
